@@ -3,21 +3,23 @@
 
 <head>
   <title>Urban Farming</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header>
-    <h1>The Future Of Urban Farming</h1>
-    <p>Growing Food in the Concrete Jungle</p>
-  </header>
-  <main>
-
+    <hgroup>
+      <h1>The Future Of Urban Farming</h1>
+      <p>Growing Food in the Concrete Jungle</p>
+    </hgroup>
     <nav>
       <a href="home.html">Home</a>
       <a href="articles.html">Articles</a>
       <a href="projects.html">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
+  </header>
+  <main>
 
     <article>
       <header>
@@ -27,7 +29,7 @@
       <section>
         <h2>Article Details</h2>
         <p>Author: Maria Lopez
-          <time datetime="2026-02-20">Published: March 15, 2026</time>
+          <time datetime="2026-03-15">Published: March 15, 2026</time>
         </p>
       </section>
 
@@ -46,20 +48,22 @@
       </section>
 
       <section>
-        <h4>Title : Real-World Example</h4>
-        <p>In <time datetime="2024">2024</time>, the SkyGrow Project launched in New York City.</p>
+        <hgroup>
+          <h4>Title : Real-World Example</h4>
+          <p>In <time datetime="2024">2024</time>, the SkyGrow Project launched in New York City.</p>
+        </hgroup>
+
+        <figure>
+          <img src="rooftop.png" alt="Photo of a rooftop garden in NYC">
+          <figcaption>Volunteers planting vegetables at SkyGrow Project.</figcaption>
+        </figure>
+
+        <details>
+          <summary>Project Funding:</summary>
+          <p>The initial investment was $<data value="250000">250,000</data>.</p>
+        </details>
       </section>
-
-      <figure>
-        <img src="rooftop.png" alt="Photo of a rooftop garden in NYC">
-        <figcaption>Volunteers planting vegetables at SkyGrow Project.</figcaption>
-      </figure>
-
-      <details>
-        <summary>Project Funding:</summary>
-        <p>The initial investment was $<data value="250000">250,000</data>.</p>
-      </details>
-
+      
       <aside>
         <a href="related_artical.png">Community Gardens in Schools</a>
       </aside>
@@ -70,17 +74,16 @@
       </section>
 
       <footer>
-        <hgroup>
-          <h5>Contact Information:</h5>
-          <p>Urban Green Initiative</p>
-          <p>123 Greenway Blvd</p>
-          <p>New York, NY</p>
-          <p>Email</p>
-        </hgroup>
+        <address>
+          <p>Urban Green Initiative
+            123 Greenway Blvd
+            New York, NY
+            Email[info@urbangreen.org](mailto:info@urbangreen.org)</p>
+        </address>
       </footer>
     </article>
   </main>
-  
+
   <footer>
     <address>© 2026 Urban Green Initiative</address>
     <time datetime="2026-04-01">Last updated: April 1, 2026</time>
